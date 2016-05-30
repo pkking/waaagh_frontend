@@ -1,0 +1,12 @@
+<div class="header">
+    <h1 class="brand-title">{{title}}</h1>
+    <h2 class="brand-tagline">{{brand}}</h2>
+
+    <nav class="nav">
+        <ul class="nav-list" *ngIf="links">
+            <li class="nav-item" *ngFor="let link of links">
+                <a class="pure-button" href="{{link.url}}">{{link.name}}</a>
+            </li>
+        </ul>
+    </nav>
+</div>
