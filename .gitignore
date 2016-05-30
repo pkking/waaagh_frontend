@@ -1,3 +1,7 @@
 node_modules
+typings
 .vscode
 .swp
+blog/*.js
+blog/*.map
+*.log

@@ -1,1 +1,0 @@
-# An angulajs toy
